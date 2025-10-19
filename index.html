@@ -1,1 +1,126 @@
-429: Too Many Requests
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Relatório de Viagem Temporal</title>
+<style>
+    /* Reset básico */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+        background-color: #1e1e2f;
+        color: #e0e0e0;
+        line-height: 1.6;
+        padding: 20px;
+    }
+
+    h1, h2 {
+        color: #ffcc00;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        margin-top: 30px;
+        border-bottom: 1px solid #555;
+        padding-bottom: 5px;
+    }
+
+    p {
+        margin: 15px 0;
+    }
+
+    .report-info {
+        background-color: #2a2a3f;
+        padding: 15px;
+        border-left: 5px solid #ffcc00;
+        margin-bottom: 20px;
+    }
+
+    .highlight {
+        color: #ff6f61;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    /* Botão para destacar seções */
+    .toggle-btn {
+        background-color: #ffcc00;
+        color: #1e1e2f;
+        border: none;
+        padding: 8px 12px;
+        margin-top: 10px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+
+    .toggle-btn:hover {
+        background-color: #ffaa00;
+    }
+
+    .hidden {
+        display: none;
+    }
+</style>
+</head>
+<body>
+
+<h1>Relatório de Viagem Temporal: 2057 → 2025</h1>
+
+<div class="report-info">
+    <p><strong>Autor:</strong> Léo Tesla, viajante temporal</p>
+    <p><strong>Origem:</strong> 2057</p>
+    <p><strong>Data de Observação:</strong> 2025</p>
+</div>
+
+<h2>Primeiras Impressões</h2>
+<p>Chegar em 2025 é como entrar em um mundo antigo e nostálgico. As pessoas ainda carregam objetos retangulares de plástico para se comunicar — <span class="highlight">celulares</span> —, e olham para baixo a maior parte do tempo. No meu tempo, 2057, a comunicação é direta pelo <span class="highlight">Neuro-Link</span>, com realidade aumentada e acesso instantâneo à Rede Global de Informação via pensamento. Ver alguém digitando em uma tela é como assistir alguém usando uma máquina de escrever antiga: curioso, mas totalmente ineficiente.</p>
+
+<p>O trânsito é caótico, imprevisível e perigoso. Em 2057, todos os veículos são autônomos, sincronizados por inteligência artificial, eliminando engarrafamentos e acidentes causados por erro humano. Aqui, dirigir ainda é uma obrigação diária e estressante.</p>
+
+<h2>Tecnologia e Comunicação</h2>
+<p>O conceito de transporte físico de informação é primitivo. Fones de ouvido são usados para traduções, enquanto em 2057, o tradutor neural universal traduz instantaneamente qualquer idioma. As barreiras de comunicação aqui ainda isolam pessoas e nações, algo que no meu tempo é praticamente inconcebível.</p>
+
+<p>O entretenimento ainda depende de telas externas e projeções físicas. Em 2057, o <span class="highlight">Holocine</span> projeta experiências sensoriais diretamente no córtex, com filmes 5D adaptativos, emoções compartilhadas e total imersão. Aqui, as pessoas ainda assistem Netflix em telas, um luxo simples comparado ao nosso mundo.</p>
+
+<h2>Política e História</h2>
+<p>O Brasil de 2025 ainda está sob um governo que será histórico para mim: <span class="highlight">Lula</span> ainda está no poder. Nos próximos anos, passará pelo Tarcísio, Haddad, Eliot, Noah, Enzo e finalmente Ayla, com Lucas Gabriel transformando a física e a ciência mundial. É fascinante observar como decisões políticas, corrupção e gestão pública moldam uma sociedade mesmo antes de tecnologias avançadas existirem.</p>
+
+<h2>Saúde e Doenças</h2>
+<p>A pandemia da <span class="highlight">eines 18</span> ainda não chegou, mas sei que será devastadora. Originada nos EUA, causada por radiação e poeira, se espalhará rapidamente, matando milhares antes de ser contida. Para nós em 2057, com conhecimento avançado em microbiologia, medicina e Nanotecnologia, a doença foi compreendida e curada — um processo que exigiu colaboração internacional, incluindo Lucas Gabriel e os maiores cientistas do mundo.</p>
+
+<h2>Sociedade e Cultura</h2>
+<p>As pessoas ainda se comunicam por texto e voz, dependem de telas, dirigem carros e enfrentam barreiras linguísticas. É um contraste gritante com 2057, onde o Neuro-Link permite comunicação mental, projeções de realidade aumentada, filtros de isolamento sub-neural e até Câmaras de Silêncio Neural, espaços isolados para experimentar “mente pura”.</p>
+
+<h2>Ciência e Educação</h2>
+<p>Lucas Gabriel aos 13 anos estudava programação, xadrez e física. Aos 16, ele já compreendia medicina, biologia, micologia e microbiologia. Apesar da juventude, suas habilidades rivalizam com profissionais experientes. Ele estudou linguística, códigos, matemática, química, psicologia e filosofia, além de desenvolver fórmulas novas.</p>
+
+<h2>Conclusão</h2>
+<p>Observando 2025 com a perspectiva de 2057, tudo parece lento, limitado e dependente de tecnologias físicas que serão rapidamente obsoletas. Cada detalhe, do trânsito ao celular, do idioma à forma de entretenimento, mostra como a humanidade ainda está dando os primeiros passos em direção a um mundo de conexão neural, silêncio valorizado, transporte autônomo e ciência avançada.</p>
+
+<button class="toggle-btn" onclick="toggleHighlights()">Destacar termos importantes</button>
+
+<script>
+function toggleHighlights() {
+    const highlights = document.querySelectorAll('.highlight');
+    highlights.forEach(h => {
+        h.classList.toggle('hidden');
+    });
+}
+</script>
+
+</body>
+</html>
